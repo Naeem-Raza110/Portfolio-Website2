@@ -3,8 +3,214 @@ body{
     padding: 0;
     font-family: "poppins",sans-serif ;
 }
-
-.name{
-    
+/* header-section here */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
+
+.site-header {
+  background: #f8f8f8;
+  padding: 10px 0;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.site-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo h1 {
+  max-height: 50px;
+  margin-left: 50px;
+}
+.logo h1 span{
+  color: #ff9a68;
+}
+.main-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+#home{
+  color: #ff9a68;
+}
+#home:hover{
+  color: #ec8958;
+}
+.main-nav ul li {
+  margin-right: 45px;
+}
+
+.main-nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  
+}
+
+.main-nav ul li a:hover {
+  color: #ec8958;
+}
+
+.container button{
+  padding: 10px 15px;
+  background-color: #ff9a68;
+  border: none;
+  margin-right: 90px;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+.container button:hover {
+  background-color: #ec8958;
+}
+
+/* hero section here */
+.hero {
+  width: 100%;
+  background: #f4f4f4;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.hero img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+/* quick section here */
+#Quick-section{
+  background-color: #ff9a68;
+  height: 160px;
+  width: 100%;
+  margin: auto;
+  border-radius: 6px;
+}
+.q-heading{
+  margin-left: 35px;
+  width: 40%;
+}
+
+
+.q-heading p{
+   font-size: 18px;
+    font-weight: 600;
+}
+.quick{
+  
+  display: flex;
+}
+.quick-line{
+    height: 160px;
+    width: 3px;
+    background-color:rgb(173, 173, 173);
+    margin-left: 360px;
+  
+}
+
+.quickBtn h2{
+padding: 45px  40px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* lastest section here */
+
+.latest-work {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.latest-work h2{
+  font-size: 4rem;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery img {
+  margin: 20px;
+  width: 200px;
+  height: 220px;
+  object-fit: cover;
+}
+
+/* about section here */
+
+
+.about {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.about p {
+  max-width: 790px;
+  margin: 15px auto;
+  color: #555;
+  font-size: 20px;
+}
+
+/* Experience section here */
+.expertise {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.expertise h2{
+  max-width: 600px;
+  margin: 20px auto;
+  color: #555;
+  font-size: 28px;
+}
+
+.expertise-categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.expertise-categories img{
+  margin: 10px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
 
