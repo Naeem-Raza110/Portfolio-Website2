@@ -4,10 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Website</title>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
     <link rel="stylesheet" href="./style/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
@@ -18,99 +26,96 @@
     <!-- header -->
     <header class="site-header">
       <div class="container">
-          <div class="logo">
-              <h1> <span>N</span>.R</h1>
+        <div class="logo">
+          <h1><span>N</span>.R</h1>
+        </div>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div>
+          <button class="header-btn">Let's Work</button>
+          <div class="menu-icon">
+            <i class="fa-solid fa-bars"></i>
           </div>
-          <nav class="main-nav">
-              <ul>
-                  <li><a href="#" id="home">Home</a></li>
-                  <li><a href="#">Portfolio</a></li>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Contact</a></li>
-              </ul>
-          </nav>
-       
-           <button>Let's Work</button>
-     
+        </div>
       </div>
-  </header>
-<!-- hero section here -->
-  <section class="hero">
+    </header>
+    <!-- hero section here -->
+    <section class="hero">
       <div class="hero-content">
         <p class="hero-p">Hi, this is,</p>
         <h1>Naeem Raza</h1>
-          <h2>FRONT-END DEVELOPER</h2>
-          <p>12+ Years of Experience</p>
-          <img src="images/image.jpg" alt="">
+        <h2>FRONT-END DEVELOPER</h2>
+        <p>12+ Years of Experience</p>
+        <img src="images/image.jpg" alt="" />
       </div>
-  </section>
+    </section>
     <!-- Quick section here -->
-    <section id="Quick-section">
-      <div class="quick">
-        <div class="q-heading">
-          <h2>Quick Intro</h2>
-          <p>
-            lets make your website <br />
-            To The Next Level
-          </p>
-         
-        </div>
-        <img src="images/image2.jpg" alt="" style="width: 150px; height: 140px; margin-top: 17px;" >
-        <div class="quick-line"></div>
-        <div class="quickBtn">
-          <h2>Follow Now</h2>
-          <div></div>
+    <section class="intro-section">
+      <div class="intro-left">
+        <h2>Quick Intro</h2>
+        <p>Lets Take Your Photographs To The Next Level</p>
+      </div>
+      <div class="intro-center">
+        <img src="images/image3.jpg" alt="" />
+      </div>
+      <div class="intro-right">
+        <h2>Follow Now</h2>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-whatsapp"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
         </div>
       </div>
     </section>
 
     <!-- Lastest work section here -->
-  
+
     <section class="latest-work">
       <h2>My Latest Work</h2>
       <div class="gallery">
-          <img src="images/image.jpg" alt="">
-          <img src="images/image3.jpg" alt="">
-          <img src="images/image2.jpg" alt="">
-          <img src="images/image3.jpg" alt="">
+        <img src="images/image.jpg" alt="" />
+        <img src="images/image3.jpg" alt="" />
+        <img src="images/image2.jpg" alt="" />
+        <img src="images/image3.jpg" alt="" />
       </div>
-  </section>
-
+    </section>
 
     <!-- About-section here -->
 
     <section class="about">
       <h2>About Me</h2>
-      <p>Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet consectetur adipisicing elit. At, odio. consectetur adipiscing elit. Quisque non erat mi. Etiam congue et augue sed tempus. Aenean sed ipsum luctus, scelerisque ipsum nec, iaculis justo.</p>
-   
-  </section>
+      <p>
+        Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. At, odio. consectetur adipiscing elit. Quisque non
+        erat mi. Etiam congue et augue sed tempus. Aenean sed ipsum luctus,
+        scelerisque ipsum nec, iaculis justo.
+      </p>
+    </section>
 
+    <!-- list-section here -->
+    <section class="services-menu">
+      <div class="container4">
+        <ul>
+          <li><a href="#">< Web Design</a></li>
+          <li><a href="#">✧ Photography</a></li>
+          <li><a href="#">✧ Product</a></li>
+          <li><a href="#">✧ Commercial</a></li>
+          <li><a href="#">✧ Visualization</a></li>
+          <li><a href="#">✧ Cinematography</a></li>
+          <li><a href="#">✧ SEO</a></li>
+        </ul>
+      </div>
+    </section>
 
-<!-- list here -->
-<section class="services-menu">
-  <div class="container4">
-    <ul>
-      <li class="icon"><</li>
-      <li><a href="#">Web Design</a></li>
-      <li class="icon">✧</li> 
-      <li><a href="#">Photography</a></li>
-      <li class="icon">✧</li> 
-      <li><a href="#">Product</a></li>
-      <li class="icon">✧</li>
-      <li><a href="#">Commercial</a></li>
-      <li class="icon">✧</li> 
-      <li><a href="#">Visualization</a></li>
-      <li class="icon">✧</li> 
-      <li><a href="#">Cinematography</a></li>
-      <li class="icon">✧</li> 
-      <li><a href="#">SEO</a></li>
-    </ul>
-  </div>
-</section>
-
-
-
-<!-- make website section here -->
+    <!-- make website section here -->
 
     <section class="make-website">
       <h2>Make Your Best Website</h2>
@@ -130,18 +135,32 @@
       </div>
     </section>
 
-<!-- Trusted client section here-->
-<section id="Trusted-client-section">
-  <div class="text1"></div>
-  <div class="text2"></div>
-  <div class="text3"></div>
-  <div class="text4"></div>
+    <!-- Trusted client section here-->
+    <section class="client-section">
+  <div class="trusted-client-section">
+  <span class="trusted-client-title">Trusted Client</span>
+  <div class="client-logos">
+      <div class="client-logo">
+       
+          <span>Sisyphus</span>
+      </div>
+      <div class="client-logo">
+          <img src="" alt="">
+          <span>Acme Corp</span>
+      </div>
+      <div class="client-logo">
+          <img src="" alt="">
+          <span>Biosynthesis</span>
+      </div>
+     
+  </div>
+</div>   
+  </div>
+</div>
 </section>
 
-
-
     <!-- Exprience section here -->
-     <section id="Exprience-section">
+    <section id="Exprience-section">
         <h2>Experience</h2>
         <div class="exp-contant">
           <div class="exp-text">
@@ -172,10 +191,41 @@
           <div class="exp-image">
               <img src="images/image11.png" alt="">
           </div>
-      <button>Contact Me</button>
+      <div class="ellipse-button">
+        Contact Me</button>
+      </div>
         
      </section>
-
+    <!-- feedback section -->
+    <section class="client-feedback">
+  <h2>Our Client Feedback</h2>
+  <div class="feedback-container">
+      <div class="arrow left-arrow" style="color: #ff9a68;">&#8592;</div>
+      <div class="feedback-content">
+          <div class="stars">
+              &#9733;&#9733;&#9733;&#9733;&#9733;
+          </div>
+          <p class="feedback-text">
+              &#8220;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Lorem ipsum dolor sit amet, consectetur adipiscing.&#8221;
+          </p>
+          <div class="client-info">
+              
+              <div class="client-details">
+                  <h3>Naeem Raza</h3>
+                  <p>UI/UX Designer</p>
+              </div>
+             
+          </div>
+      </div>
+      <div class="arrow right-arrow" style="color: #ff9a68;">&#8594;</div>
+  </div>
+  <div class="pagination">
+      <span class="dot" style="background-color: #ff9a68;"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+  </div>
+</section>
 
     <!-- follow section here -->
     <section class="follow-section">
@@ -186,12 +236,15 @@
           <img src="images/image6.jpg" alt="" style="margin-top: -35px;">
           <img src="images/image7.jpg" alt="" >
       </div>
-      <li></li>
+      <div class="follow-btn">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+      
+        
   </section>
 
-
-<!-- footer section here -->
-<section class="footer">
+    <!-- footer section here -->
+    <section class="footer">
   <div class="container2">
     <div class="footer-logo">
       <h2> <span>N</span>.R</h2>
@@ -228,31 +281,26 @@
         <ul>
           <li><a href="#">Products</a></li>
           <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Blog
+          <li><a href="#">Blog </a>
           </div>
    </section>
-   <!-- last section here  -->
-   <footer class="footer-bottom">
-    <div class="container3">
-      <div class="footer-bottom-left">
+    <!-- last section here  -->
+    <footer class="footer2">
+    <div class="footer-content">
         <p>Copyrights © Maru 2024 - All rights reserved.</p>
-      </div>
-      <div class="footer-bottom-middle">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Project</a></li>
-          <li><a href="#">Service</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
-      <div class="footer-bottom-right">
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-whatsapp"></i></a>
-        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-      </div>
+        <nav class="footer-nav">
+           <a href="#">HOME</a>
+            <a href="#">PROJECT</a>
+            <a href="#">SERVICE</a>
+            <a href="#">CONTACT</a>
+        </nav>
+        <div class="socials-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
     </div>
-  </footer>
-  
+</footer>
   </body>
 </html>
