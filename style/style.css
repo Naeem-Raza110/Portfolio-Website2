@@ -523,7 +523,7 @@ h2 {
     width: 50px;
     height: 40px; 
     border-radius: 50%; 
-    display: flex;"
+    display: flex;
   }
 }
 
@@ -779,7 +779,7 @@ h2 {
   transition: color 0.3s ease, border-color 0.3s ease;
   &:hover {
     color: #FBBE84;
-    */ border-color: #FBBE84;
+     border-color: #FBBE84;
   }
 }
 
